@@ -9,7 +9,7 @@ ip=$1
 
 if [ $1 = "-t" ]; then
     ip=$2
-elif [ $1 = "-h" ] || [ $1 = "--help" ]
+elif [ $1 = "-h" ] || [ $1 = "--help" ]; then
     echo -e "\n\n[-] Usage: ./hdiscovery.sh <subnet ip> (-t to use tcp in case icmp is blocked)\n"
     exit 0
 fi
